@@ -1,30 +1,20 @@
 ---
-layout: default
-title: Hello
+layout: page
+title: "Michelle Viscaino"
+subtitle: "Assistant Professor | AI + Biomedical + Precision Agriculture + Robotics"
 ---
 
+Welcome to my academic website. I am currently a **tenured Assistant Professor** in the Department of Automation and Industrial Control at the Escuela Politécnica Nacional (EPN), Quito - Ecuador.
 
-## An easy to use, minimal, text focused Jekyll theme
+My work combines **Artificial Intelligence**, **Biomedical Engineering**, and **Robotics** with applications in **healthcare**, **agriculture**, and **industrial automation**.
 
-[Bear Blog](https://bearblog.dev/) is *"a blogging platform where words matter most"*. 
+---
 
-This is a port of it's theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
+## 🗞 News
 
-**Stop worrying about the style, focus on your writing.**
+- **Feb 2026** – Migrated website from Google Sites to GitHub Pages with Jekyll!
+- **Nov 2025** – "Mujeres en la Ciencia" Talk at XXIII Jornadas de Ingenieria Electrica y Electronica, Escuela Politecnica Nacional, Quito, Ecuador, November 2025.
+- **Jul 2025** – I was invited to write an editorial titled "El Futuro del Corazón: Inteligencia Artificial en la Práctica Cardiológica" for the *Revista de la Sociedad de Cardiólogos del Ecuador* (digital format, 2025).
+- **Jun 2025** – "When Data speaks: artificial intelligence in clinical practice", Talk at LXIV Jornadas  Internacionales de Cardiolog´ıa y Aterosclerosis 2025, Quito, Ecuador, June 2025.
 
-- Looks great on *any* device
-- Tiny, optimized, and awesome pages
-- No trackers, ads, or scripts, *did I mention minimal already?*
-- Auto light and dark themes
-- Tag support, to filter blog pages
-- Quick, *15 minute* setup
-- Gallery view for your images
-- Code highlighting
-
-Have a look around, this website is already themed with **jekyllBear**. If you like it, head over to the GitHub [repository](https://github.com/knhash/jekyllBear) for installation instructions.
-
-#### New: Life in Weeks Interactive Timeline
-
-- Visualize your life weeks, inspired by [Wait But Why](https://waitbutwhy.com/2014/05/life-weeks.html) and [Buster Benson](https://busterbenson.com/life-in-weeks/) and cycle through key events with up/down arrows.
-
-Try it on the [Life in Weeks](https://knhash.in/jekyllBear/life) page!
+*Want to get in touch? [michelle.viscaino@epn.edu.ec](/contact).*
