@@ -1,15 +1,11 @@
-###########
-# site.title
-
-title: jekyllBear
-description: a minimal, text focused blog theme
-# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
-url: "https://knhash.in/jekyllBear" # the base hostname & protocol for your site
-# host: 0.0.0.0
-
+##############
+# Site title
+title: Michelle Viscaino
+description: Personal and academic website
+url: "https://michelleviscaino.com"  # Actualiza con tu dominio real
 
 #########################
-# more settings
+# Plugins & settings
 
 plugins:
   - jekyll-redirect-from
@@ -28,10 +24,6 @@ compress_html:
   ignore:
     envs: []
 
-# sass:
-#   sass_dir: css
-#   style:    compressed
-
 collections:
   my_tags:
     output: true
@@ -44,25 +36,28 @@ defaults:
     values:
       layout: tagged
 
-# baseurl: ""
 permalink: /blog/:slug
 timezone: America/New_York
 future: false
 
+# Excluded files/folders from build
 exclude:
-- README.md
-- LICENSE.md
+  - README.md
+  - LICENSE.md
+  - vendor
 
-exclude: [vendor]
+#########################
+# Navigation bar links
 
-Blog: /blog
-Life: /life
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Teaching"
+    link: "/teaching/"
+  - name: "Research"
+    link: "/research/"
 
-# Add general links to site pages here
-links:
-  # Resume: /assets/resume.pdf
-  
-
-# Add links for more focus here
+#########################
+# Optional special links (footer or extra)
 special_links:
   # "Search": https://duckduckgo.com
