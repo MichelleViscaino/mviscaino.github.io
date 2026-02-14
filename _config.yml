@@ -1,17 +1,21 @@
 ##############
-# Site title
-title: Michelle Viscaino
-description: Personal and academic website
-url: "https://michelleviscaino.com"  # Actualiza con tu dominio real
+# Site identity
+title: "Michelle Viscaino"
+description: "Personal and academic website"
+url: "https://www.michelleviscaino.com"   # use the exact domain you want as canonical
+baseurl: ""                               # IMPORTANT for custom domain root
 
 #########################
-# Plugins & settings
-
+# Plugins (GitHub Pages friendly)
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
 
 whitelist:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
 
 markdown: kramdown
 
@@ -24,40 +28,43 @@ compress_html:
   ignore:
     envs: []
 
+#########################
+# Tags collection (used by jekyllBear)
 collections:
   my_tags:
     output: true
     permalink: /tagged/:slug/
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: my_tags
     values:
       layout: tagged
 
-permalink: /blog/:slug
-timezone: America/New_York
+#########################
+# Blog + site behavior
+permalink: /blog/:slug/
+timezone: America/Guayaquil
 future: false
 
-# Excluded files/folders from build
 exclude:
   - README.md
   - LICENSE.md
   - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
 
 #########################
-# Navigation bar links
+# jekyllBear navbar (THIS is what the theme reads)
+links:
+  Teaching: /teaching/
+  Research: /research/
+  Publications: /publications/
+  Projects: /projects/
+  News: /news/
+  Contact: /contact/
 
-nav:
-  - name: "Home"
-    link: "/"
-  - name: "Teaching"
-    link: "/teaching/"
-  - name: "Research"
-    link: "/research/"
-
-#########################
-# Optional special links (footer or extra)
 special_links:
-  # "Search": https://duckduckgo.com
+  Search: /search/

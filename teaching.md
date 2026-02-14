@@ -2,17 +2,18 @@
 layout: page
 title: "Teaching"
 subtitle: "Course materials, notes, and class resources"
+permalink: /teaching/
 ---
-
-I teach undergraduate and graduate courses in **Automation**, **Control Systems**, **Biomedical Instrumentation**, and **AI applications**.
+:contentReference[oaicite:10]{index=10} graduate courses in **Automation**, **Control Systems**, **Biomedical Instrumentation**, and **AI applications**.
 
 ### 📚 Available Materials
 
-- 🔧 [SCADA Systems](/teaching/scada)
-- 📊 [Numerical Methods](/teaching/numerical-methods)
-- ⚙️ [Sensors and Transducers](/teaching/advanced-control)
+- 🔧 [SCADA Systems](/teaching/scada/)
+- 📊 [Numerical Methods](/teaching/numerical-methods/)
+- ⚙️ [Sensors and Transducers](/teaching/sensors-transducers/)
 
-All materials are provided for educational use. If you're a student enrolled in my class, check [Moodle](https://https://aulasvirtuales.epn.edu.ec/) or our class channel for updates.
+All materials are provided for educational use. If you're a student enrolled in my class, check
+[Moodle](https://aulasvirtuales.epn.edu.ec/) or our class channel for updates.
 
 ---
 

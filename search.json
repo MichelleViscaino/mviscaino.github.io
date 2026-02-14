@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+{% assign first = true %}
+
+{% for p in site.pages %}
+  {% if p.title and p.url != "/search.json" %}
+    {% unless first %},{% endunless %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "content": {{ p.content | markdownify | strip_html | strip_newlines | jsonify }}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.posts %}
+  {% if post.title %}
+    {% unless first %},{% endunless %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "content": {{ post.content | markdownify | strip_html | strip_newlines | jsonify }}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+]
